@@ -1,0 +1,53 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.new_workspace{
+  margin-top: 2rem;
+}
+h2 {
+    margin-top: 10rem;
+    font-size: 4em;
+    letter-spacing: -2px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  
+  input {
+    border: 1px solid #bbb;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+ 
+  }
+  
+  .rd{
+  padding-right: 0%;
+  text-align: right;
+  width: 5em; 
+  height: 3em; 
+  }
+  .txt{
+    padding-left: 2%;
+    text-align: left;
+  }
+  .radio_size
+  { width: 1em; 
+    height: 1em;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background-color: #552eff;
+   }
+   span{
+     font-weight: bold;
+   }
+   .invite_success{
+     padding-top: 90px;
+   }
+   

@@ -1,0 +1,14 @@
+<% provide(:title, 'New WorkSpace') %>
+<h2>New WorkSpace</h2>
+<div class="row new_workspace">
+  <div class="col-md-6 col-md-offset-3">
+  <%= form_for(:workspace, url: "#") do |f| %>
+      <%= f.label :name, "New WorkSpace:" %>
+      <%= f.text_field :name, class: "form-control" %>     
+      <%= f.submit "Next", class:"btn btn-primary btn-lg btn-block"  %>
+      <% end %>
+  </div>
+  </div>
+  
+  
+  
